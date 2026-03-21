@@ -15,8 +15,23 @@ public class OperationsinArrayList{
         list.add(4);
         list.add(5);
         System.out.println(list);
-        
 
+        //Get Operation -0(1)
+        int element = list.get(2);
+        System.out.println(element);  
+        
+        //Delete operation
+        list.remove(2);
+        System.out.println(list);
+
+        //Set operation
+        list.set(2, 10);
+        System.out.println(list);
+
+
+        //Contains operation
+        System.out.println(list.contains(1));
+        System.out.println(list.contains(11));
 
 
 
